@@ -4,6 +4,10 @@ Implement an algorithm to determine if a string has all unique characters.
 What if you cannot use additional data structures?
 """
 
+"""
+Technique used: Hash table of ascii characters, using ord()
+"""
+
 str_a = 'tensorflow'
 str_b = 'pytorch'
 

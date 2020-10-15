@@ -11,6 +11,10 @@ pale,   bale    -> true
 pale,   bake    -> false
 """
 
+"""
+Technique used: 2 pointers moving separately across 2 arrays
+"""
+
 def optimized(str_a, str_b):
     if abs(len(str_a) - len(str_b))>1:
         return False

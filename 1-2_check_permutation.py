@@ -3,6 +3,10 @@
 Given two strings, write a method to decide if one is a permutation of the other.
 """
 
+"""
+Technique used: Hash table of ascii characters, using ord()
+"""
+
 str_a = "iamlordvoldemort"
 str_b = "tommarvoloriddle"
 str_c = "harrypotter"

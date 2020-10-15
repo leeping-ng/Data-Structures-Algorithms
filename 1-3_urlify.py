@@ -11,6 +11,11 @@ Input:  "Mr John Smith    ", 13
 Output: "Mr%20John%20Smith"
 """
 
+"""
+Technique used: Edit a string starting from the end and working backwards.
+(Commonly used in string manipulation)
+"""
+
 str_input = "Mr John Smith    "
 true_length = 13
 

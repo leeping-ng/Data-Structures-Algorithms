@@ -9,6 +9,11 @@ EXAMPLE
 Input: "Tact Coa"
 Output: True (permutations: "taco cat", "atco cta" etc)
 """
+
+"""
+Technique used: Hash table of ascii characters, using ord()
+"""
+
 str_a = "Tact Coa"
 str_b = "Permutation"
 
